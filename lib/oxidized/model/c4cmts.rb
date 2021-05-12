@@ -32,7 +32,7 @@ class C4CMTS < Oxidized::Model
   end
 
   cfg :telnet do
-    username /^Username:/
+    username /^(Login|Username):/
     password /^Password:/
   end
 
